@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/HarryEMartland/orderly-badger.svg?branch=master)](https://travis-ci.org/HarryEMartland/orderly-badger)
+
 # Orderly Badger
 
 Orderly Badger is a simple docker management tool designed to aid shutting down short lived testing environments. 
