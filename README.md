@@ -15,4 +15,4 @@ The ui can be accessed on port 8080.
 The application listens on the docker socket to get notified when new containers are created and if they have `MAGE_AGE` set.
 To start up the application and listen on the socket the socket must be mounted similar to below.
 
-`docker run -v -d /var/run/docker.sock:/var/run/docker.sock -p8080:8080 harrymartland/orderly-badger`
+`docker run -d -v /var/run/docker.sock:/var/run/docker.sock -p8080:8080 harrymartland/orderly-badger`
